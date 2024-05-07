@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 jobs:
   Buildandpushdocker:
-    runs-on: ubuntu-latest
+    runs-on: demo
     environment: dev
     steps:
       - name: gitclone 
